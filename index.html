@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutina Piernas</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Menu-->
+    <header>
+        <nav id="menu-bar">
+            <ul id="menu">
+                <li class="choice-menu"><a class="text-menu" href="index.html">Home</a></li>
+                <li class="choice-menu"><a class="text-menu" href="Blog-Page/blog.html">Blog</a></li>
+                <li class="choice-menu"><a class="text-menu" href="All-Exercise-Page/all-exercise.html">All Exercise</a>
+                </li>
+                <li class="choice-menu">
+                    <a class="text-menu" href="#">Training</a>
+                    <ul class="sub-menu">
+                        <li class="choice-menu hidden"><a class="text-menu" href="#">All Training</a></li>
+                        <li class="choice-menu hidden"><a class="text-menu" href="#">Create Training</a></li>
+                    </ul>
+                </li>
+                <li class="choice-menu"><a class="text-menu" href="#">Recipe Book</a></li>
+                <li class="choice-menu"><a class="text-menu" href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Contenido-->
+    <main id="container">
+        <div id="idn">
+            <!--4 ejercicios para Piernas-->
+            <div id="slider-exercise-container">
+                <div>
+                    <div id="exer-zero" class="show-exer">
+                        <h1 class="exer">Slow Squats</h1>
+                        <div class="imagenes">
+                            <img class="exercise-demostration" src="gif/Squat.gif" alt="">
+                        </div>
+                    </div>
+                    <div id="exer-one" class="hide-exer">
+                        <h1 class="exer">Isometric Squats</h1>
+                        <div class="imagenes">
+                            <img class="exercise-demostration" src="image/Isometric-Squat.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div id="exer-two" class="hide-exer">
+                        <h1 class="exer">heel flicks</h1>
+                        <div class="imagenes">
+                            <img class="exercise-demostration" src="gif/Heel-Flicks.gif" alt="">
+                        </div>
+                    </div>
+                    <div id="exer-three" class="hide-exer">
+                        <h1 class="exer">Jump Rope</h1>
+                        <div class="imagenes">
+                            <img class="exercise-demostration" src="gif/Jump-Rope.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Contadores-->
+            <div id="counter-container">
+                <div id="set-container">
+                    <p id="set-p">Sets: <span id="set-count"></span></p>
+                </div>
+                <div id="time-container">
+                    <div id="time">
+                        <p id="work-time" class="show-time">Work Time: <span class="iterators" id="work"></span></p>
+                        <p id="rest-time" class="hide-time">Rest Time: <span class="iterators" id="rest"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="btn-container">
+            <button id="botoncito">Start</button>
+        </div>
+    </main>
+    <footer>
+        <a href="#">
+            <div id="yt-container">
+                <img id="yt-icon" src="image/bxl-youtube.png" alt="">
+            </div>
+        </a>
+        <a href="#">
+            <div id="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                </svg>
+            </div>
+        </a>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
